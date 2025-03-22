@@ -5,4 +5,4 @@ phases:
       java: latest
   build:
     commands:
-      - mvn verify sonar:sonar -Dsonar.projectKey=awscodedevsecops -Dsonar.organization=awscodedevsecops -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=673ca60d36d3087d82a93748e2b8731fa431a7c6
+      - mvn verify sonar:sonar -Dsonar.projectKey=awscodedevsecops -Dsonar.organization=awscodedevsecops -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=token
